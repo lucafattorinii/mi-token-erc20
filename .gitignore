@@ -1,0 +1,22 @@
+# Ignorar directorios y archivos generados por Truffle
+build/
+contracts/
+migrations/
+test/
+truffle-config.js
+
+# Ignorar archivos de entorno local (por ejemplo, variables de ambiente)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignorar directorios y archivos generados por el sistema
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignorar archivos temporales y copias de seguridad
+*.swp
+*~
